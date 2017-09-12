@@ -1,16 +1,35 @@
-<!DOCTYPE html>
-<!--
-To change this license header, choose License Headers in Project Properties.
-To change this template file, choose Tools | Templates
-and open the template in the editor.
--->
-<html>
+<!doctype html>
+<html class="no-js" lang="en" dir="ltr">
     <head>
-        <title>TODO supply a title</title>
+        <meta charset="utf-8">
+        <meta http-equiv="x-ua-compatible" content="ie=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>GCA E-market place</title>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/foundation/6.4.3/css/foundation.css" />
+        <!--fonts-->
+        <link href='https://fonts.googleapis.com/css?family=Raleway' rel='stylesheet' type='text/css'>
+        <link rel="stylesheet" href="app.css">
     </head>
     <body>
-        <div>TODO write content</div>
+        <div class="container">
+            <div class="row">
+                <div class="large-4 large-centered columns">
+                    <form action="PdfServlet">
+                        <fieldset>
+                            <label>Name</label>
+                            <input type="text" name="names">
+                        </fieldset>
+                        <fieldset>
+                            <label>Email</label>
+                            <input type="email" name="email">
+                        </fieldset>
+                        <button type="submit" class="button secondary">Submit</button>
+                    </form>
+                </div>
+            </div>
+
+        </div>
     </body>
 </html>

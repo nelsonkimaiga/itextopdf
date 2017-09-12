@@ -4,9 +4,17 @@
         <servlet-name>FirstPdf</servlet-name>
         <servlet-class>itextPDF.FirstPdf</servlet-class>
     </servlet>
+    <servlet>
+        <servlet-name>PdfServlet</servlet-name>
+        <servlet-class>itextPDF.PdfServlet</servlet-class>
+    </servlet>
     <servlet-mapping>
         <servlet-name>FirstPdf</servlet-name>
         <url-pattern>/FirstPdf</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>PdfServlet</servlet-name>
+        <url-pattern>/PdfServlet</url-pattern>
     </servlet-mapping>
     <session-config>
         <session-timeout>
